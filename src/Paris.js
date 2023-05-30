@@ -1,11 +1,13 @@
 
 import './Paris.css';
 import ParisImg from './parisImg.jpg';
+import WorldIcon from './WorldIcon';
 
 
 function ParisPage() {
   return (
     <div className="App">
+      <WorldIcon/>
       <header className="App-header">
         <img className="App-header__paris" src={ParisImg} alt="Paris Panorama" />
       </header>
