@@ -20,10 +20,12 @@
 .City-container {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
-  gap: 3rem;
+  padding: 0 3rem 0 3rem;
 }
 
+.intro {
+  padding: 0 3rem 0 3rem;
+}
 
 .cards {
   display: flex;
@@ -42,6 +44,7 @@
   border: solid;
   font-family: calibri;
   font-size: 30px;
+  color: saddlebrown;
 }
 
 .intro__title {
