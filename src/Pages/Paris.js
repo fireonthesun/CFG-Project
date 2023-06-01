@@ -20,7 +20,7 @@ function Paris() {
         </article>
         <div className="cards">
           <div className="cards__item">Top Paris Sightseeing</div>
-          <div className="cards__item">Up Coming Events</div>
+          <div className="cards__item">Upcoming Events</div>
         </div>
       </div>
     </div>
