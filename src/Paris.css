@@ -1,11 +1,10 @@
-.App {
+.City {
   text-align: center;
 }
 
-
-.App-header {
+.City-header {
   background-color: white;
-  min-height: 50vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,13 +12,12 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-header__paris {
+.City-header__paris {
   border-radius: 3rem;
   max-width: 99%;
 }
 
-.container {
-  min-height: 10vh;
+.City-container {
   display: flex;
   flex-direction: row;
   padding: 2rem;
@@ -38,7 +36,14 @@
 .cards__item {
   background-color: antiquewhite;
   min-width: 10rem;
-  min-height: 6rem;
-  padding-top: 4rem;
   border-radius: 3rem;
+  padding: 30px;
+  border-radius: 3rem;
+  border: solid;
+  font-family: calibri;
+  font-size: 30px;
+}
+
+.intro__title {
+  font-size: 45px;
 }

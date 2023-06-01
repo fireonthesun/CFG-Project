@@ -6,12 +6,12 @@ import WorldIcon from '../WorldIcon';
 
 function Paris() {
   return (
-    <div className="App">
+    <div className="City">
       <WorldIcon/>
-      <header className="App-header">
-        <img className="App-header__paris" src={ParisImg} alt="Paris Panorama" />
+      <header className="City-header">
+        <img className="City-header__paris" src={ParisImg} alt="Paris Panorama" />
       </header>
-      <div className="container">
+      <div className="City-container">
         <article className="intro">
           <h1> Paris </h1>
           <p>
