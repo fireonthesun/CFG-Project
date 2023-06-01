@@ -1,10 +1,10 @@
 
-import './Paris.css';
-import ParisImg from './parisImg.jpg';
-import WorldIcon from './WorldIcon';
+import '../Paris.css';
+import ParisImg from '../parisImg.jpg';
+import WorldIcon from '../WorldIcon';
 
 
-function ParisPage() {
+function Paris() {
   return (
     <div className="App">
       <WorldIcon/>
@@ -27,4 +27,4 @@ function ParisPage() {
   );
 }
 
-export default ParisPage;
+export default Paris;
