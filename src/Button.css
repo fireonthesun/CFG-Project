@@ -15,7 +15,19 @@
     height: 65px;
     :hover{
         color: #fff;
-        background-color: #616467;
     }
 }
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 17rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: auto;
+    width: auto
+  }
 
