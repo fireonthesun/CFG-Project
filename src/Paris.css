@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.City-header {
-  background-color: white;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
 .City-header__paris {
   border-radius: 3rem;
   max-width: 99%;
@@ -20,33 +10,23 @@
 .City-container {
   display: flex;
   flex-direction: row;
-  padding: 0 3rem 0 3rem;
 }
 
 .intro {
   padding: 0 3rem 0 3rem;
 }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
+.intro__title {
+  font-size: 45px;
 }
 
 .cards__item {
   background-color: antiquewhite;
-  min-width: 10rem;
-  border-radius: 3rem;
-  padding: 30px;
   border-radius: 3rem;
   border: solid;
+  padding: 3rem;
+  margin: 3rem;
   font-family: calibri;
   font-size: 30px;
   color: saddlebrown;
-}
-
-.intro__title {
-  font-size: 45px;
 }

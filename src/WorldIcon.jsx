@@ -3,7 +3,7 @@ import './WorldIcon.css';
 
 const WorldIcon = () => {
     return (
-        <FaGlobeAmericas className="App-logo" />
+        <FaGlobeAmericas className="World-logo" />
     )
 }
 

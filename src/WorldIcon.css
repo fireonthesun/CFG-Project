@@ -1,12 +1,12 @@
-.App-logo {
-    min-height: 20vh;
+.World-logo {
+    min-height: 18.5vh;
     height: 15vmin;
     width: 15vmin;
     pointer-events: none;
   }
   
   @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
+    .World-logo {
       animation: App-logo-spin infinite 20s linear;
     }
   }
