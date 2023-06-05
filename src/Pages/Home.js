@@ -3,7 +3,7 @@ import Button from '../Button'
 import '../App.css';
 import { FaGlobeAmericas } from 'react-icons/fa';
 import {Link} from 'react-router-dom';
-
+import Like from '../Like';
 
 
 function Home() {
@@ -26,11 +26,14 @@ function Home() {
         </div>
 
         <div className="buttons">
-
-          <Link to="/Paris">
-            < Button message='Paris' />
+          
+          
+          <Link to="/Paris">  
+          < Button message='Paris' /> 
           </Link>
-        
+          
+          <Like/>
+         
           <a
             className="App-link"
             href="Milan.js"
@@ -50,6 +53,10 @@ function Home() {
             <Button message='Barcelona' />
           </a>
         </div>
+
+
+       
+      
 
       </div>
     </body>
