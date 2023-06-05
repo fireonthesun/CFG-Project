@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
     margin: 10px;
-    gap: 17rem;
+    gap: 13rem;
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
@@ -31,3 +31,15 @@
     width: auto
   }
 
+  .Like {
+    color: gray;
+    background-color: white;
+    border: none;
+    margin-left: -205px;
+    margin-top: 8px;
+    :hover{
+        color: red;
+    }
+
+  }
+  

@@ -28,9 +28,6 @@
   color: rgb(111, 176, 134);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -50,7 +47,7 @@
   
 }
 
-.container {
+.container  {
   display: flex;
   flex-direction: row;
   margin:0%;
