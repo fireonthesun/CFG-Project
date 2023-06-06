@@ -3,9 +3,9 @@ import { FaHeart } from 'react-icons/fa';
 
 const Like = () => {
 
-    var counterValue = 0;
+    var counterValue = 1;
     const triggeredEvent = () => {
-        console.log(counterValue)
+        console.log("Paris has " + counterValue + " likes")
         counterValue++;
     }
     return (
