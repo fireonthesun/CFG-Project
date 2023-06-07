@@ -8,7 +8,7 @@ import Like from '../Like';
 
 function Home() {
   return (
-    <body>
+    
       <div className="App">
         <header className="App-header">
           <FaGlobeAmericas className="App-logo" />
@@ -59,7 +59,7 @@ function Home() {
       
 
       </div>
-    </body>
+    
   );
 }
 
