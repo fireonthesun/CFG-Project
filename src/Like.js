@@ -5,7 +5,7 @@ const Like = () => {
 
     var counterValue = 1;
     const triggeredEvent = () => {
-        console.log("Paris has " + counterValue + " likes")
+        console.log("Paris has " + counterValue + " like(s)")
         counterValue++;
     }
     return (
